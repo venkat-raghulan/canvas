@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas - The Design App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="canvas-container">
+        <div id="canvas-instructions">
+            <img src="https://i1.faceprep.in/prograd-junior/canvas.svg" alt="logo">
+            <p>Complete this art using the color palette</p>
+        </div>
+        <div id="canvas">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+                <g fill="none" fill-rule="evenodd">
+                    <path fill="#FFF" d="M0 0H320V200H0z" />
+                    <path stroke="#000" stroke-width=".687"
+                        d="M108.433 117.21l-4.636-9.33c-1.576-30.576-.031-51.18 4.636-61.814 7-15.949 22.475-26.066 50.823-26.066 28.347 0 45.094 10.906 50.636 26.066 5.542 15.16 7.81 33.792 4.861 61.5-1.226 2.086-2.846 5.301-4.861 9.645l-2.586 24.415-13.766 18.107v.839l-11.424 14.121-7.078 5h-31.34l-6.869-4.374-11.576-14.275v-1.311l-14.054-18.107-2.766-24.415z" />
+                    <path stroke="#000" stroke-width=".687"
+                        d="M114.81 90.472v-48.6c8.347-4.967 17.15-7.845 26.406-8.633 2.63 20.014 4.522 34.267 5.675 42.757l12.365 2.433 12.536-2.433 5.198-42.757c12.096 1.868 20.904 4.746 26.422 8.633.63 9.99.944 26.19.944 48.6.514 1.725 1.839 7.941 3.976 18.649-4.404 12.063-18.103 29.412-22 40.905 0 1.861-2.26 5.676-6.78 11.444l-4.231-4.305h-31.885l-4.236 4.305c-2.472-3.673-4.798-7.487-6.98-11.444-9.607-20.074-11.894-20.074-21.89-40.905 1.221-6.183 2.715-12.4 4.48-18.649z" />
+                    <path stroke="#000" stroke-width=".687"
+                        d="M133.338 152.181L139.2 161.47 143.436 157.165 175.321 157.165 179.553 161.47 186.059 152.485 187.793 161.47 180.48 172.631 173.086 169.472 163.338 169.472 161.948 168.481 157.037 168.481 155.818 169.472 145.389 169.472 139.2 172.631 131.392 161.47zM120.879 97.355l26.34 12.025-3.195 5.645-17.528-3.192-6.571-7.373.954-7.105zm76.889 0l.954 7.105-6.571 7.373-17.528 3.192-3.196-5.645 26.34-12.025z" />
+                </g>
+            </svg>
+        </div>
+    </section>
+    <section id="colors">
+        <div id="heading">
+            <h2>Colour Palette</h2>
+            <div id="reset">Reset Colours</div>
+        </div>
+        <div id="color-container">
+            <div class="color-selector">
+                <input type="color" class="color-box"></input>
+                <p>Face plate</p>
+            </div>
+            <div class="color-selector">
+                <div class="color-box"></div>
+                <p>Face plate</p>
+            </div>
+            <div class="color-selector">
+                <div class="color-box"></div>
+                <p>Face plate</p>
+            </div>
+            <div class="color-selector">
+                <div class="color-box"></div>
+                <p>Face plate</p>
+            </div>
+            <div class="color-selector">
+                <div class="color-box"></div>
+                <p>Face plate</p>
+            </div>
+        </div>
+        <div class="line"></div>
+        <p id="made-with-love">Made with ❤️ by Srikanth. Share it with your friends</p>
+        <div class="social-icons">
+            <img src="https://i1.faceprep.in/prograd-junior/whatsapp.svg" alt="whatsapp">
+            <img src="https://i1.faceprep.in/prograd-junior/facebook.svg" alt="facebook">
+        </div>
+        <div class="line"></div>
+        <p class="logo-text">Powered by</p>
+        <img src="https://i1.faceprep.in/prograd-junior/logo-pink.svg" alt="">
+        <p id="CTA">Wanna create your own App like this?
+            Register for a free coding workshop now!</p>
+        <div id="book-a-seat">BOOK A SEAT</div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
