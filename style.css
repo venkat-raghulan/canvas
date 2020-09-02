@@ -76,6 +76,7 @@ p {
     line-height: 50px;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #color-container {
@@ -135,6 +136,7 @@ p {
     line-height: 50px;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
 }
 
 input[type="color"] {
