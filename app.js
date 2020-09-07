@@ -12,19 +12,19 @@ const resetButton = document.getElementById("reset");
 
 colorBoxes = document.querySelectorAll(".color-box");
 
-facePlate.onchange = () => {
+facePlate.oninput = () => {
   svgFacePlate.style.fill = facePlate.value;
 };
 
-helmet.onchange = () => {
+helmet.oninput = () => {
   svgHelmet.style.fill = helmet.value;
 };
 
-mouthPlate.onchange = () => {
+mouthPlate.oninput = () => {
   svgMouthPlate.style.fill = mouthPlate.value;
 };
 
-background.onchange = () => {
+background.oninput = () => {
   svgBackGround.style.fill = background.value;
 };
 
